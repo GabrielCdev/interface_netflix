@@ -43,11 +43,22 @@ header nav a:hover {
 /* Main Movie */
 .main-movie {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url('../img/shooter.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url('../img/shooter.jpg');
     height: 400px;
-    background-size: cover; /* Imagem cobre o tamanho do container */
+    /* Imagem cobre o tamanho do container */
+    background-size: cover;
     display: flex;
-    flex-direction: column; /* Dispostos verticalmente */
+    /* Dispostos verticalmente */
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start; /* Em column, os itens ficarão na esquerda */
+    /* Em column, os itens ficarão à esquerda */
+    align-items: flex-start;
+}
+
+.main-movie .movie-description {
+    margin-bottom: 40px;
+}
+
+.movie-title {
+    font-size: 40px;
 }
